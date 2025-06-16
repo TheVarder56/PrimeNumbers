@@ -6,6 +6,9 @@ import edu.unl.cc.succession.domain.Successionable;
 import java.util.Scanner;
 
 import java.util.Scanner;
+/*
+    Authors: Miguel Armas, Soledad Buri, Sebastian Orellana, Steven Perez y Derick Vargas
+*/
 
     //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
