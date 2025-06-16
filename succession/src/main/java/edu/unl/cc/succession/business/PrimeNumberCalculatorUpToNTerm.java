@@ -67,7 +67,7 @@ public class PrimeNumberCalculatorUpToNTerm implements Successionable {
         Number currentPrimeTerm=1;
         while(currentTerm<=limit){
             exponent=(2*currentTerm)-1;
-            this.printableTerms.append(currentPrimeTerm).append("^").append(exponent).append(" ");
+            this.printableTerms.append(currentPrimeTerm).append("^").append(exponent).append(" + ");
             currentPrimeTerm=nextTerm(currentPrimeTerm);
             this.currentTerm= currentTerm +1;
             result=(int)Math.pow(currentPrimeTerm.doubleValue(),exponent);
