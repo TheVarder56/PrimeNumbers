@@ -1,6 +1,9 @@
 package edu.unl.cc.succession.business;
 
 import edu.unl.cc.succession.domain.Successionable;
+/*
+    Authors: Miguel Armas, Soledad Buri, Sebastian Orellana, Steven Perez y Derick Vargas
+*/
 
 public class PrimeNumberCalculatorUpToNTerm implements Successionable {
     private Integer limit;
