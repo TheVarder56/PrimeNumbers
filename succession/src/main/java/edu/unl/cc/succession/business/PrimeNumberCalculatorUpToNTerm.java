@@ -72,6 +72,9 @@ public class PrimeNumberCalculatorUpToNTerm implements Successionable {
             this.currentTerm= currentTerm +1;
             result=(int)Math.pow(currentPrimeTerm.doubleValue(),exponent);
         }
+        //Siempre al final de cada termino se concatena " + "
+        //Elimina el ultimo '+' y ' ' de la cadena final a presentar
+        printableTerms.delete(printableTerms.length() - 2, printableTerms.length());
         return result;
     }
 
